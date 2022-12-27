@@ -1,3 +1,3 @@
 # Redes_Sociais
 Página com todas as minhas redes sociais <br><br>
-[ Clique aqui para acessar a página: ]()
+[Acessar a página: ](https://marinsantos.github.io/Redes_Sociais/)
