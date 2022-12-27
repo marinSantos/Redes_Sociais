@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color:whitesmoke;
+}
+.container {
+    margin: 50px auto 0 auto;
+    max-width: 700px;
+    padding: 0 20px;
+}
+
+header {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.pefil {
+    max-width: 100px;
+}
+
+.pefil img {
+    max-width: 100px;
+    border-radius: 50px;
+}
+
+.redesIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.icons {
+    display: flex;
+    gap: 12px;
+}
+
+.icons img {
+    max-width: 35px;
+}
+main{
+    padding: 90px 0 60px 0;
+    display: grid;
+    row-gap: 30px;
+}
+main img{
+    max-width: 30px;
+  height: 35px;
+}
+h3{
+    color: #2A2A2A;
+}
+.socials{
+    position: relative;
+    background-color: white ;
+    height: 90px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+  align-items: center;
+    box-shadow: 1px 0px 28px 0px rgb(0 0 0 / 41%);
+}
+.socials:hover{
+    animation:pulse ;
+    animation-duration: .6s;
+}
+.social{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-right: 65px;
+}
+
+footer{
+
+    height: 70px;
+    padding-left: 50px;
+}
